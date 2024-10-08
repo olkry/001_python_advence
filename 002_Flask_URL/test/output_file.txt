@@ -1,0 +1,235 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  23084 13952 ?        Ss   12:27   0:00 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    12:27   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    12:27   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-netns]
+root           8  0.0  0.0      0     0 ?        I    12:27   0:00 [kworker/0:0-cgroup_destroy]
+root          10  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/0:0H-events_highpri]
+root          11  0.0  0.0      0     0 ?        I    12:27   0:00 [kworker/u8:0-ext4-rsv-conversion]
+root          12  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    12:27   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    12:27   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    12:27   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    12:27   0:00 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    12:27   0:00 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    12:27   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    12:27   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    12:27   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    12:27   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    12:27   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    12:27   0:00 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    12:27   0:00 [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/1:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        S    12:27   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    12:27   0:00 [idle_inject/2]
+root          29  0.0  0.0      0     0 ?        S    12:27   0:00 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    12:27   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/2:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    12:27   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    12:27   0:00 [idle_inject/3]
+root          35  0.0  0.0      0     0 ?        S    12:27   0:00 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    12:27   0:00 [ksoftirqd/3]
+root          43  0.0  0.0      0     0 ?        S    12:27   0:00 [kdevtmpfs]
+root          44  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-inet_]
+root          45  0.0  0.0      0     0 ?        S    12:27   0:00 [kauditd]
+root          47  0.0  0.0      0     0 ?        S    12:27   0:00 [khungtaskd]
+root          48  0.0  0.0      0     0 ?        S    12:27   0:00 [oom_reaper]
+root          50  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-write]
+root          51  0.0  0.0      0     0 ?        S    12:27   0:00 [kcompactd0]
+root          52  0.0  0.0      0     0 ?        SN   12:27   0:00 [ksmd]
+root          53  0.0  0.0      0     0 ?        I    12:27   0:00 [kworker/1:1-events]
+root          54  0.0  0.0      0     0 ?        SN   12:27   0:00 [khugepaged]
+root          55  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-kinte]
+root          56  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-kbloc]
+root          57  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-blkcg]
+root          58  0.0  0.0      0     0 ?        S    12:27   0:00 [irq/9-acpi]
+root          60  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-tpm_d]
+root          61  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-ata_s]
+root          62  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-md]
+root          63  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-md_bi]
+root          64  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-edac-]
+root          65  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-devfr]
+root          66  0.0  0.0      0     0 ?        S    12:27   0:00 [watchdogd]
+root          68  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/1:1H-kblockd]
+root          69  0.0  0.0      0     0 ?        S    12:27   0:00 [kswapd0]
+root          70  0.0  0.0      0     0 ?        S    12:27   0:00 [ecryptfs-kthread]
+root          71  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-kthro]
+root          73  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-acpi_]
+root          75  0.0  0.0      0     0 ?        S    12:27   0:00 [scsi_eh_0]
+root          76  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-scsi_]
+root          77  0.0  0.0      0     0 ?        S    12:27   0:00 [scsi_eh_1]
+root          78  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-scsi_]
+root          82  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-mld]
+root          83  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-ipv6_]
+root          84  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/0:1H-kblockd]
+root          91  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-kstrp]
+root          93  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/u13:0]
+root          94  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/u14:0]
+root          95  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/u15:0-ttm]
+root          96  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/u16:0-ttm]
+root          97  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/u17:0]
+root         110  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-charg]
+root         111  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/3:1H-kblockd]
+root         112  0.0  0.0      0     0 ?        I    12:27   0:00 [kworker/2:2-events]
+root         163  0.0  0.0      0     0 ?        I    12:27   0:00 [kworker/u12:1-flush-8:0]
+root         164  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/2:1H-kblockd]
+root         170  0.0  0.0      0     0 ?        S    12:27   0:00 [scsi_eh_2]
+root         172  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-scsi_]
+root         223  0.0  0.0      0     0 ?        S    12:27   0:00 [jbd2/sda2-8]
+root         224  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-ext4-]
+root         273  0.0  0.2  67228 18716 ?        S<s  12:27   0:00 /usr/lib/systemd/systemd-journald
+root         331  0.0  0.0      0     0 ?        I    12:27   0:00 [kworker/u8:1-ext4-rsv-conversion]
+root         346  0.0  0.1  30388  8516 ?        Ss   12:27   0:00 /usr/lib/systemd/systemd-udevd
+systemd+     399  0.0  0.0  17556  7296 ?        Ss   12:27   0:00 /usr/lib/systemd/systemd-oomd
+systemd+     419  0.0  0.1  21800 12928 ?        Ss   12:27   0:00 /usr/lib/systemd/systemd-resolved
+root         480  0.0  0.0      0     0 ?        S    12:27   0:00 [psimon]
+root         535  0.0  0.0      0     0 ?        I    12:27   0:00 [kworker/3:4-events]
+root         568  0.0  0.0      0     0 ?        S    12:27   0:00 [irq/18-vmwgfx]
+root         569  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-ttm]
+root         630  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/R-crypt]
+systemd+     833  0.0  0.0  91044  7808 ?        Ssl  12:27   0:00 /usr/lib/systemd/systemd-timesyncd
+avahi        867  0.0  0.0   8664  4352 ?        Ss   12:27   0:00 avahi-daemon: running [aden-VirtualBox.local]
+message+     868  0.0  0.0  12184  6784 ?        Ss   12:27   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+     871  0.0  0.1 439064 15912 ?        Ssl  12:27   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd      877  0.0  0.1 384524 10868 ?        Ssl  12:27   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         880  0.0  0.0 322044  7296 ?        Ssl  12:27   0:00 /usr/libexec/power-profiles-daemon
+root         889  0.0  0.4 1991312 33656 ?       Ssl  12:27   0:00 /usr/lib/snapd/snapd
+root         892  0.0  0.0 321960  7532 ?        Ssl  12:27   0:00 /usr/libexec/accounts-daemon
+root         893  0.0  0.0  18092  2816 ?        Ss   12:27   0:00 /usr/sbin/cron -f -P
+root         894  0.0  0.0 318388  6656 ?        Ssl  12:27   0:00 /usr/libexec/switcheroo-control
+root         896  0.0  0.1  18144  8704 ?        Ss   12:27   0:00 /usr/lib/systemd/systemd-logind
+root         897  0.0  0.1 469388 13752 ?        Ssl  12:27   0:00 /usr/libexec/udisks2/udisksd
+root         933  0.0  0.2 345048 19052 ?        Ssl  12:27   0:00 /usr/sbin/NetworkManager --no-daemon
+root         934  0.0  0.0  17376  6272 ?        Ss   12:27   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+avahi        937  0.0  0.0   8476  1292 ?        S    12:27   0:00 avahi-daemon: chroot helper
+syslog       948  0.0  0.0 222564  5888 ?        Ssl  12:27   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1004  0.0  0.1 392096 12600 ?        Ssl  12:27   0:00 /usr/sbin/ModemManager
+root        1017  0.0  0.0 304420  3460 ?        Sl   12:27   0:00 /usr/sbin/VBoxService
+root        1019  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/3:2H-kblockd]
+root        1158  0.0  0.1  46920 11904 ?        Ss   12:27   0:00 /usr/sbin/cupsd -l
+root        1165  0.0  0.2 120880 22784 ?        Ssl  12:27   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+lp          1174  0.0  0.0  16836  6784 ?        S    12:27   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp          1175  0.0  0.0  16836  6784 ?        S    12:27   0:00 /usr/lib/cups/notifier/dbus dbus://
+root        1176  0.0  0.1 323492  9216 ?        Ssl  12:27   0:00 /usr/sbin/gdm3
+cups-br+    1199  0.0  0.2 268396 19840 ?        Ssl  12:27   0:00 /usr/sbin/cups-browsed
+kernoops    1201  0.0  0.0  12744  2188 ?        Ss   12:27   0:00 /usr/sbin/kerneloops --test
+kernoops    1204  0.0  0.0  12744  2312 ?        Ss   12:27   0:00 /usr/sbin/kerneloops
+rtkit       1247  0.0  0.0  22940  3328 ?        SNsl 12:27   0:00 /usr/libexec/rtkit-daemon
+colord      1343  0.0  0.1 328728 14400 ?        Ssl  12:27   0:00 /usr/libexec/colord
+root        1389  0.0  0.1 325328  8832 ?        Ssl  12:27   0:00 /usr/libexec/upowerd
+root        1637  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/u15:1]
+root        1721  0.0  0.1 398712 10880 ?        Sl   12:27   0:00 gdm-session-worker [pam/gdm-password]
+aden        1737  0.0  0.1  21124 12800 ?        Ss   12:27   0:00 /usr/lib/systemd/systemd --user
+aden        1743  0.0  0.0  21460  3612 ?        S    12:27   0:00 (sd-pam)
+aden        1757  0.0  0.1 125684 15972 ?        S<sl 12:27   0:00 /usr/bin/pipewire
+aden        1759  0.0  0.0 106404  5888 ?        Ssl  12:27   0:00 /usr/bin/pipewire -c filter-chain.conf
+aden        1764  0.0  0.2 415568 18560 ?        S<sl 12:27   0:00 /usr/bin/wireplumber
+aden        1773  0.0  0.1 125676 14604 ?        S<sl 12:27   0:00 /usr/bin/pipewire-pulse
+aden        1774  0.0  0.0  11196  6784 ?        Ss   12:27   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+aden        1776  0.0  0.1 325272 10240 ?        SLsl 12:27   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+aden        1787  0.0  0.0 692692  7296 ?        Ssl  12:27   0:00 /usr/libexec/xdg-document-portal
+aden        1805  0.0  0.0 317976  5888 ?        Ssl  12:27   0:00 /usr/libexec/xdg-permission-store
+root        1817  0.0  0.0   2704  1920 ?        Ss   12:27   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+aden        1835  0.0  0.0 244336  5888 tty2     Ssl+ 12:27   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+aden        1841  0.0  0.1 306868 16256 tty2     Sl+  12:27   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+aden        1885  0.0  0.0 162652  7040 ?        Ssl  12:27   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+aden        1886  0.0  0.0 100216  5504 ?        Ssl  12:27   0:00 /usr/libexec/gnome-session-ctl --monitor
+aden        1906  0.0  0.0 322956  7808 ?        Ssl  12:27   0:00 /usr/libexec/gvfsd
+aden        1932  0.0  0.0 468380  7040 ?        Sl   12:27   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+aden        1944  0.0  0.2 676580 18176 ?        Ssl  12:27   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+aden        1979  0.0  0.0 382940  7680 ?        Sl   12:27   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+aden        1997  0.0  0.0   9608  5120 ?        S    12:27   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+aden        1998  3.5  5.2 4941920 430084 ?      Ssl  12:27   2:53 /usr/bin/gnome-shell
+aden        2053  0.0  0.0 236068  7424 ?        Sl   12:27   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+aden        2072  0.0  0.2 654832 17536 ?        Sl   12:27   0:00 /usr/libexec/gnome-shell-calendar-server
+aden        2082  0.0  0.5 1266752 42624 ?       Ssl  12:27   0:00 /usr/libexec/evolution-source-registry
+aden        2091  0.0  0.3 2532084 27048 ?       Sl   12:27   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+aden        2106  0.0  0.1 471272 12288 ?        Ssl  12:27   0:02 /usr/bin/ibus-daemon --panel disable
+aden        2108  0.0  0.0 392188  6528 ?        Ssl  12:27   0:00 /usr/libexec/gsd-a11y-settings
+aden        2112  0.0  0.2 421640 20208 ?        Ssl  12:27   0:00 /usr/libexec/gsd-color
+aden        2119  0.0  0.1 440328 12032 ?        Ssl  12:27   0:00 /usr/libexec/gsd-datetime
+aden        2120  0.0  0.0 467536  7808 ?        Ssl  12:27   0:00 /usr/libexec/gsd-housekeeping
+aden        2125  0.0  0.2 494228 19460 ?        Ssl  12:27   0:00 /usr/libexec/gsd-keyboard
+aden        2126  0.0  0.3 750204 25092 ?        Ssl  12:27   0:00 /usr/libexec/gsd-media-keys
+aden        2127  0.0  0.2 532248 23940 ?        Ssl  12:27   0:00 /usr/libexec/gsd-power
+aden        2130  0.0  0.1 332312 11264 ?        Ssl  12:27   0:00 /usr/libexec/gsd-print-notifications
+aden        2133  0.0  0.0 539752  6528 ?        Ssl  12:27   0:00 /usr/libexec/gsd-rfkill
+aden        2135  0.0  0.0 318228  6272 ?        Ssl  12:27   0:00 /usr/libexec/gsd-screensaver-proxy
+aden        2136  0.0  0.1 551864 11776 ?        Ssl  12:27   0:00 /usr/libexec/gsd-sharing
+aden        2138  0.0  0.1 468220  8192 ?        Ssl  12:27   0:00 /usr/libexec/gsd-smartcard
+aden        2140  0.0  0.1 402308  9600 ?        Ssl  12:27   0:00 /usr/libexec/gsd-sound
+aden        2141  0.0  0.2 495076 20484 ?        Ssl  12:27   0:00 /usr/libexec/gsd-wacom
+aden        2146  0.0  0.1 397860 10240 ?        Ssl  12:27   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+aden        2148  0.0  0.7 817764 62468 ?        Sl   12:27   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+aden        2153  0.0  0.0 305492  7168 ?        Sl   12:27   0:00 /usr/libexec/gsd-disk-utility-notify
+aden        2289  0.0  0.0 245316  7040 ?        Sl   12:27   0:00 /usr/libexec/ibus-memconf
+aden        2290  0.0  0.3 430144 29492 ?        Sl   12:27   0:01 /usr/libexec/ibus-extension-gtk3
+aden        2296  0.0  0.0 319096  7040 ?        Sl   12:27   0:00 /usr/libexec/ibus-portal
+aden        2298  0.0  0.2 555316 23808 ?        Sl   12:27   0:00 /usr/libexec/goa-daemon
+aden        2305  0.0  0.0 318440  6272 ?        Ssl  12:27   0:00 /usr/libexec/gvfs-goa-volume-monitor
+aden        2327  0.0  0.1 397796  8960 ?        Sl   12:27   0:00 /usr/libexec/goa-identity-service
+aden        2333  0.0  0.1 424872 14976 ?        Sl   12:27   0:00 /usr/libexec/gsd-printer
+aden        2337  0.0  0.2 899400 23808 ?        Ssl  12:27   0:00 /usr/libexec/evolution-calendar-factory
+aden        2343  0.0  0.0 398044  8064 ?        Ssl  12:27   0:00 /usr/libexec/gvfs-afc-volume-monitor
+aden        2351  0.0  0.0 318460  6528 ?        Ssl  12:27   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+aden        2358  0.0  0.0 319428  6784 ?        Ssl  12:27   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+aden        2374  0.0  0.3 834080 29312 ?        Ssl  12:27   0:00 /usr/libexec/evolution-addressbook-factory
+aden        2390  0.0  0.0 245440  7168 ?        Sl   12:27   0:00 /usr/libexec/ibus-engine-simple
+aden        2400  0.0  0.0 230224  5632 ?        Ssl  12:27   0:00 /usr/libexec/dconf-service
+aden        2426  0.0  0.1 618268  9216 ?        Sl   12:27   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+root        2479  0.0  0.0      0     0 ?        I<   12:27   0:00 [kworker/u16:1]
+aden        2492  0.0  0.3 823656 31736 ?        SNsl 12:27   0:00 /usr/libexec/tracker-miner-fs-3
+aden        2525  0.0  0.3 2663144 27084 ?       Sl   12:27   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+aden        2531  0.0  0.1 1103608 14708 ?       Ssl  12:27   0:00 /usr/libexec/xdg-desktop-portal
+aden        2541  0.0  0.0 245008  6400 ?        Ssl  12:27   0:00 /usr/libexec/gvfsd-metadata
+aden        2542  0.0  0.4 638780 40600 ?        Ssl  12:27   0:00 /usr/libexec/xdg-desktop-portal-gnome
+aden        2568  0.0  0.3 426420 26116 ?        Ssl  12:27   0:00 /usr/libexec/xdg-desktop-portal-gtk
+aden        2584  0.0  0.1  39128 11776 ?        Ss   12:27   0:00 /snap/snapd-desktop-integration/247/usr/bin/snapd-desktop-integration
+aden        2631  0.0  0.3 429608 30484 ?        Sl   12:27   0:00 /snap/snapd-desktop-integration/247/usr/bin/snapd-desktop-integration
+aden        2664  0.2  1.0 248460 89332 ?        S    12:27   0:14 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.WQ5FV2 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+aden        2668  0.0  0.9 622476 75392 ?        Ssl  12:27   0:00 /usr/libexec/gsd-xsettings
+aden        2689  0.0  0.2 275528 24320 ?        Sl   12:27   0:00 /usr/libexec/ibus-x11
+aden        2694  0.0  1.3 1559676 108920 ?      Sl   12:27   0:02 /usr/libexec/mutter-x11-frames
+aden        2720  0.0  0.1 396900  8448 ?        Sl   12:27   0:00 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+aden        2772  0.0  0.3 500904 28292 ?        Sl   12:28   0:00 /usr/bin/update-notifier
+root        3131  0.0  0.0      0     0 ?        S    12:32   0:00 [psimon]
+aden        3329  0.0  0.1 328856  9600 ?        Sl   12:36   0:00 /usr/libexec/gvfsd-http --spawner :1.20 /org/gtk/gvfs/exec_spaw/2
+aden        4872  0.2  3.4 34246552 281704 ?     SLl  13:01   0:06 /opt/google/chrome/chrome http://127.0.0.1:5000
+aden        4878  0.0  0.0  17096  1792 ?        S    13:01   0:00 cat
+aden        4879  0.0  0.0  17096  1792 ?        S    13:01   0:00 cat
+aden        4881  0.0  0.0 33577932 3456 ?       Sl   13:01   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/aden/.config/google-chrome/Crash Reports --metrics-dir=/home/aden/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.1 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=129.0.6668.89 --initial-client-fd=5 --shared-client-connection
+aden        4883  0.0  0.0 33568696 3328 ?       Sl   13:01   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/aden/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.1 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=129.0.6668.89 --initial-client-fd=4 --shared-client-connection
+aden        4889  0.0  0.7 33944280 60928 ?      S    13:01   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --change-stack-guard-on-fork=enable
+aden        4890  0.0  0.7 33944268 61440 ?      S    13:01   0:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --change-stack-guard-on-fork=enable
+aden        4892  0.0  0.2 33944292 16664 ?      S    13:01   0:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --change-stack-guard-on-fork=enable
+aden        4917  0.0  1.5 34234860 122092 ?     Sl   13:01   0:01 /opt/google/chrome/chrome --type=gpu-process --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,15240463983876713858,15377660645671829837,262144 --disable-features=EyeDropper --variations-seed-version=20241007-180352.059000
+aden        4921  0.0  1.3 33940320 113224 ?     Sl   13:01   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15240463983876713858,15377660645671829837,262144 --disable-features=EyeDropper --variations-seed-version=20241007-180352.059000
+aden        4930  0.0  0.6 33994380 53836 ?      Sl   13:01   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15240463983876713858,15377660645671829837,262144 --disable-features=EyeDropper --variations-seed-version=20241007-180352.059000
+aden        5091  0.0  0.7 1178334996 60668 ?    Sl   13:01   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=proxy_resolver.mojom.ProxyResolverFactory --lang=en-US --service-sandbox-type=service --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15240463983876713858,15377660645671829837,262144 --disable-features=EyeDropper --variations-seed-version=20241007-180352.059000
+root        5330  0.0  0.4 559588 38116 ?        Ssl  13:05   0:00 /usr/libexec/fwupd/fwupd
+root        5694  0.0  0.0      0     0 ?        I    13:10   0:00 [kworker/u9:0-flush-8:0]
+root        5736  0.0  0.0      0     0 ?        I    13:11   0:00 [kworker/u10:2-events_power_efficient]
+root        5895  0.0  0.0      0     0 ?        I    13:14   0:00 [kworker/u12:2-flush-8:0]
+root        5910  0.0  0.0      0     0 ?        I    13:15   0:00 [kworker/u11:1-events_unbound]
+root        5944  0.0  0.0      0     0 ?        I    13:21   0:00 [kworker/u11:2-writeback]
+root        5956  0.0  0.0      0     0 ?        I    13:23   0:00 [kworker/u9:1-writeback]
+aden        6026  0.0  0.8 2955424 67804 ?       Sl   13:27   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+root        6106  0.0  0.0      0     0 ?        I    13:27   0:00 [kworker/0:1-events]
+aden        6220  0.0  1.7 1213560264 140020 ?   Sl   13:28   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --extension-process --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=26 --time-ticks-at-unix-epoch=-1728379650127525 --launch-time-ticks=3638192700 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15240463983876713858,15377660645671829837,262144 --disable-features=EyeDropper --variations-seed-version=20241007-180352.059000
+root        6599  0.0  0.0      0     0 ?        I    13:30   0:00 [kworker/1:3-events]
+root        6801  0.0  0.0      0     0 ?        I    13:31   0:00 [kworker/u9:2-flush-8:0]
+root        6870  0.0  0.0      0     0 ?        I    13:32   0:00 [kworker/u11:3-events_power_efficient]
+root        6875  0.0  0.0      0     0 ?        I    13:34   0:00 [kworker/3:1]
+aden        6939 12.8 29.1 6008920 2366572 ?     SLl  13:36   1:40 /home/aden/Documents/pycharm-community-2024.2.3/bin/pycharm
+aden        7004  0.0  0.0   3784  2048 ?        S    13:36   0:00 /home/aden/Documents/pycharm-community-2024.2.3/bin/fsnotifier
+aden        7044  0.0  0.0  20596  6016 pts/0    Ss   13:36   0:00 /bin/bash --rcfile /home/aden/Documents/pycharm-community-2024.2.3/plugins/terminal/shell-integrations/bash/bash-integration.bash -i
+root        7154  0.0  0.0      0     0 ?        I    13:37   0:00 [kworker/u10:3-events_freezable_power_]
+aden        7306  0.0  0.9 1211897276 75824 ?    Sl   13:38   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=29 --time-ticks-at-unix-epoch=-1728379650127525 --launch-time-ticks=4286083439 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15240463983876713858,15377660645671829837,262144 --disable-features=EyeDropper --variations-seed-version=20241007-180352.059000
+root        7312  0.0  0.0      0     0 ?        I    13:38   0:00 [kworker/2:1-cgroup_destroy]
+root        7466  0.0  0.0      0     0 ?        I    13:44   0:00 [kworker/u12:0-events_unbound]
+root        7472  0.0  0.0      0     0 ?        I    13:45   0:00 [kworker/u10:0-writeback]
+aden        7507  2.1  1.4 1213552196 119304 ?   Sl   13:49   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4881 --enable-crash-reporter=9869ffb2-ff92-46f5-b093-9f9a5bed2e88, --extension-process --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=35 --time-ticks-at-unix-epoch=-1728379650127525 --launch-time-ticks=4928252034 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15240463983876713858,15377660645671829837,262144 --disable-features=EyeDropper --variations-seed-version=20241007-180352.059000
+aden        7518  0.0  0.0  22288  4608 pts/0    R+   13:49   0:00 ps aux
