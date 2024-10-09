@@ -1,6 +1,6 @@
 import unittest
 
-from get_social_status import get_social_status
+from block_003_tests.get_social_status import get_social_status
 
 
 class TestSocialAge(unittest.TestCase):
