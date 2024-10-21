@@ -45,5 +45,6 @@ def handle_exception(e: InternalServerError):
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.DEBUG, filename='bank_data/banking.log',
+                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     app.run()
