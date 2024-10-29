@@ -2,37 +2,40 @@ import logging
 import random
 import threading
 import time
+from threading import Lock
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 COUNTER = 1
-
+LOCK = Lock()
 
 def worker_one():
     global COUNTER
-    while COUNTER < 1000:
-        COUNTER += 1
+    with LOCK:
+        while COUNTER < 1000:
+            COUNTER += 1
 
-        logger.info(f'Worker one increment counter to {COUNTER}')
-        sleep_time = random.randint(0, 1)
-        time.sleep(sleep_time)
+            logger.info(f'Worker one increment counter to {COUNTER}')
+            # sleep_time = random.randint(0, 1)
+            # time.sleep(sleep_time)
 
 
 def worker_two():
     global COUNTER
-    while COUNTER > -1000:
-        COUNTER -= 1
+    with LOCK:
+        while COUNTER > -1000:
+            COUNTER -= 1
 
-        logger.info(f'Worker two decrement counter to {COUNTER}')
-        sleep_time = random.randint(0, 1)
-        time.sleep(sleep_time)
+            logger.info(f'Worker two decrement counter to {COUNTER}')
+            # sleep_time = random.randint(0, 1)
+            # time.sleep(sleep_time)
 
 
 def main():
     start = time.time()
-    thread_1 = threading.Thread(target=worker_one())
-    thread_2 = threading.Thread(target=worker_two())
+    thread_1 = threading.Thread(target=worker_one)
+    thread_2 = threading.Thread(target=worker_two)
     thread_1.start()
     thread_2.start()
     thread_1.join()
