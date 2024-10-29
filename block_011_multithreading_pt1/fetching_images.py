@@ -59,3 +59,4 @@ if __name__ == '__main__':
     if not os.path.exists('./temp'):
         os.mkdir('./temp')
     load_images_multithreading()
+
