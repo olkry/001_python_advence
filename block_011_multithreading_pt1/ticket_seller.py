@@ -11,6 +11,8 @@ logger = logging.getLogger(__name__)
 
 class Seller(threading.Thread):
 
+
+
     def __init__(self, semaphore: threading.Semaphore):
         super().__init__()
         self.sem = semaphore
